@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://eduwork.id/assets/bg-hero.png); 
+    background-repeat:no-repeat; 
+    background-size: cover; 
+}
+.header {
+    margin: 150px 150px 150px 170px;
+}
+
+.header-title {
+    font-weight: bolder;
+    color: #404040;
+}
+  
+.stepper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 220%;
+}
+
+.header-text {
+    color: #404040;
+    margin-top: 30px;
+}
+
+.stepper-number {
+    background-color: #187CFF;
+    padding: 4px 22px 4px 11px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.stepper-line {
+    border-left: 2px dotted #187CFF;
+    height: 30px;
+    margin-bottom: -12px;
+    margin-left: 11px;
+}
+
+.arrow-down {
+    border: solid #187CFF;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 12px;
+}
+
+.header-button {
+    width: 500px; 
+    margin-top: 20px; 
+    margin-bottom: 20px
+}
+
+.free-button {
+    position: absolute;
+    background-color: #FF0000; 
+    padding: 4px 12px; 
+    font-size:12px; 
+    font-weight: bold;
+    border-radius: 50px; 
+    color: #FFFFFF; 
+    margin-left: 150px; 
+    margin-top: -20px;
+}
+.btn-daftar {
+    background-color: rgb(24 124 255);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 11px 45px 11px 45px;
+    z-index: -1;
+}
+
+.btn-konsultasi {
+    background-color: rgb(255 210 0);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #404040;
+    font-size: 14px;
+    padding: 11px 45px 11px 45px;
+}
+
+.text-box {
+    width: 400px;
+    height: 120px;
+    margin-left: 165px;
+    margin-top: -130px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    
+}
